@@ -4,9 +4,12 @@ function greet(who: string) {
     console.log('Hello', who)
 }
 
-function add(a: number, b: number) {
+function add(a: string, b: string) {
     return a+b;
 }
+
+const x: number = null;
+const y: number | null = null;
 
 function logMessage(message: string | null) {
     if(message) {
