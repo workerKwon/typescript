@@ -14,3 +14,12 @@ function add(): number {
 function plus(a: number, b: number): number {
     return a + b;
 }
+plus(10);
+
+
+// 함수의 옵셔널 파라미터(?)
+function log(a: string, b?: string) {
+
+}
+log('hello world')
+log('hello ts', 'abc')
